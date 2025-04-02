@@ -1,0 +1,26 @@
+.button {
+    display: inline-block;
+    border-radius: 7px;
+    height: 52px;
+    background: var(--accent);
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.26em;
+    color: #000;
+
+    padding: 18px clamp(0.938rem, 0.256rem + 3.41vw, 2.813rem) 15px;
+    
+    line-height: 1;
+}
+
+.button:hover,
+.button:active {
+    background-color: #d4a133;
+}
+
+@media (max-width:800px) {
+    .button {
+        letter-spacing: 0.17em;
+    }
+}
